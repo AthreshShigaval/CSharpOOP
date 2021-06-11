@@ -10,8 +10,8 @@ namespace WarriorWars
         static Random rnd = new Random();
         static void Main()
         {
-            Warrior goodHuman = new Warrior("RCB", Category.GoodGuy);
-            Warrior badHuman = new Warrior("CSK", Category.BadGuy);
+            Warrior goodHuman = new Warrior("Good", Category.GoodGuy);
+            Warrior badHuman = new Warrior("Evil", Category.BadGuy);
 
             while (goodHuman.IsAlive && badHuman.IsAlive)
             {
